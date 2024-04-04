@@ -1,0 +1,127 @@
+body{
+  display: flex;
+  background-color: hsl(204, 43%, 93%);
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  width: 600px;
+  height: 400px;
+  margin-top: 100px;
+   
+}
+.top-section{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+}
+  
+.bottom-section{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  height: 200px;
+}
+.section-a{
+  background-color: hsl(179, 62%, 43%);
+}
+.section-b{
+  background-color:hsl(179, 43%, 59%); 
+}
+.heading{
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: 'karla' ,sans-serif;
+  font-weight: 700;
+  color:hsl(179, 62%, 43%);
+} 
+
+.second-line{
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: 'karla' ,sans-serif;
+  font-weight: 700;
+  color:hsl(71, 73%, 54%);
+
+}
+
+.description{
+  margin-left:  40px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  font-family: 'karla' ,sans-serif;
+  font-weight: 400;
+  color: hsl(206, 4%, 66%);
+  font-size: 13px;
+}
+.subscription, .why-us{
+  margin-left: 40px;
+  font-size: 15px;
+  font-family: 'karla', sans-serif;
+  font-weight: 700;
+  color:white;
+  margin-top: 30px;
+}
+span{
+  font-family: 'karla', sans-serif;
+  color: white;
+  font-weight: 520;
+  font-size: 25px;
+  margin-right: 10px;
+  
+  
+}
+.price-per-month{
+  margin-left: 40px;
+  color: white;
+  
+  
+}
+.month-span{
+  opacity: 0.5;
+  font-size: 13px;
+}
+.full-access{
+  color: white;
+  font-family: 'karla', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+ button{
+  background-color:hsl(71, 73%, 54%);
+  width: 193px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.15s;
+  font-family: 'karla', sans-serif;
+
+ }
+ button:hover{
+  cursor: pointer;
+  background-color:hsl(65, 28%, 92%);
+  opacity: 0.5;
+  color: black;
+  
+ }
+ button:active{
+  opacity: 0.5;
+ }
+  
+.reasons{
+  font-size: 10px;
+  margin-left: 40px;
+  margin-top: 25px;
+  
+}
+.reasons p{
+  line-height: 5px;
+  color: white;
+  opacity: 0.7;
+  font-family: 'karla', sans-serif;
+}
